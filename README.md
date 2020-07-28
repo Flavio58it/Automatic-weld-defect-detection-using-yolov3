@@ -16,6 +16,6 @@ This video shows how it can be used:"https://youtu.be/4tatlyz4yFg"
 - numpy 1.19.1
 - PyInstaller 3.6 (optional)
 
-if you haven't python installed on your computer you can use the executable file directly by downloading the executable with the wieghts and the cfg file from this link "https://drive.google.com/file/d/10rYKCr1pXuuZh8AKF6P7QqYh0NCgjORl/view?usp=sharing,%20https://drive.google.com/file/d/1HJwvH21obKdhFnepyHz7TrKsspXXRDjC/view?usp=sharing" 
+if you haven't python installed on your computer you can use the executable file directly by downloading the executable with the wieghts and the cfg file from this link https://drive.google.com/u/0/uc?export=download&confirm=8cc1&id=10rYKCr1pXuuZh8AKF6P7QqYh0NCgjORl
 # Detecting defect in dicom image:
 ![Sans titre](https://user-images.githubusercontent.com/47951668/88341229-22db9c80-cd35-11ea-9a01-0896f93b60d8.png)
