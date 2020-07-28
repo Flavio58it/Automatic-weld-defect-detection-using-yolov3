@@ -23,9 +23,7 @@ def resource_path(relative_path):
 
 def analyse():
         global img
-        devlabel.configure(text="Developped \n"
-                            "by \n"
-                            "BOUZID YASSINE\n 2020")
+        devlabel.configure(text=text)
 
         # Load Yolo
 
@@ -96,18 +94,14 @@ def analyse():
 
 
 def save():
-    devlabel.configure(text="Developped \n"
-                            "by \n"
-                            "BOUZID YASSINE\n 2020")
+    devlabel.configure(text=text)
     location = filedialog.asksaveasfile(initialdir=r"C:\Users\SOFT\Desktop\results",defaultextension=".jpg", filetypes= (("file JPG","*.jpg")
                                                                                                                         ,("file png", "*.png")
                                                                                                                         ,("all files","*.*")))
     cv2.imwrite(location.name, img)
 
 def load_jpg():
-    devlabel.configure(text="Developped \n"
-                            "by \n"
-                            "BOUZID YASSINE\n 2020")
+    devlabel.configure(text=text)
     global my_label
     filename = filedialog.askopenfilenames(initialdir=r"C:\Users\SOFT\Desktop\results", title="image dialog box",
                                            filetypes=(("jpg", "*.jpg"), ("all", "*.*")))
@@ -134,9 +128,7 @@ def load_jpg():
 
 
 def load():
-    devlabel.configure(text="Developped \n"
-                            "by \n"
-                            "BOUZID YASSINE\n 2020")
+    devlabel.configure(text=text)
     global my_label
     global img2, filename,img
 
@@ -217,10 +209,8 @@ inverse= Checkbutton(frm1, text = "Inverse", variable = var, bg ="white")
 inverse.pack(side = TOP, pady = 20, padx = 2)
 inverse.select()
 inverse['font'] =btnFont
-
-devlabel = Label(frm1, text= "Developped \n"
-                          "by \n" 
-                          "BOUZID YASSINE\n 2020")
+text ="Developped \n" "by \n" "BOUZID YASSINE\n 2020"
+devlabel = Label(frm1, text= text)
 devlabel.pack(side = TOP, pady = 20, padx = 2)
 devlabel['font'] = myFont
 
