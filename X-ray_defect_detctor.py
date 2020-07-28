@@ -104,7 +104,7 @@ def load_jpg():
     devlabel.configure(text=text)
     global my_label
     filename = filedialog.askopenfilenames(initialdir=r"C:\Users\SOFT\Desktop\results", title="image dialog box",
-                                           filetypes=(("jpg", "*.jpg"), ("all", "*.*")))
+                                           filetypes=(("JPG", "*.jpg"), ("PNG", "*.png"), ("all", "*.*")))
     my_label.configure(image="")
     img_jpg = Image.open((filename)[0])
     print((filename)[0])
@@ -183,7 +183,7 @@ btn_load_DCM.pack(side = TOP, pady = 20 , padx = 10)
 btn_load_DCM['font'] =btnFont
 frm['font'] =labeFont
 
-btn_load_JPG = Button(frm1, text= "Load JPG",height = 5, width = 8, command = load_jpg, bg ="white",activebackground="blue")
+btn_load_JPG = Button(frm1, text= "Load JPG \n& PNG",height = 5, width = 8, command = load_jpg, bg ="white",activebackground="blue")
 btn_load_JPG.pack(side = TOP, pady = 20, padx = 2)
 btn_load_JPG['font'] =btnFont
 
