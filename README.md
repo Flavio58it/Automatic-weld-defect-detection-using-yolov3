@@ -5,7 +5,7 @@ The GUI is written in python tkinter, it is made for reading and editing DICOM a
 you can download weights in this link "https://drive.google.com/file/d/1ugtEFYPN4g-LKC8t703zZSAgbZ_UwwTU/view?usp=sharing"
 make sure to put both the cfg and the weights files in the same directory with the python script in order to run it.
 # Video
-This video shows how it can be used:"https://youtu.be/4tatlyz4yFg"
+This video shows how it can be used:https://www.youtube.com/watch?v=qZkWvCNbpZM
 # Requirements:
 
 - python 3.7.7
