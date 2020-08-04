@@ -1,8 +1,8 @@
 # Automatic-weld-defect-detection-using-yolov3:
-This app is made for detecting manufacturing weld defect from x-ray both DICOM and JPG images using yolov3 model which is finetuned over 1300 manufacturing weld defects images. 
+This app is made under Darknet library for detecting manufacturing weld defect from x-ray both DICOM and JPG images using yolov3 model  which is finetuned over 1300 manufacturing weld defects images. 
 
 The GUI is written in python tkinter, it is made for reading and editing DICOM and JPG images, and mainly for detecting, localizing and measuring the dimension of weld defects using deep trained YOLOV3 model.
-you can download weights in this link "https://drive.google.com/file/d/1ugtEFYPN4g-LKC8t703zZSAgbZ_UwwTU/view?usp=sharing"
+you can download weights in this link "https://drive.google.com/uc?id=1ugtEFYPN4g-LKC8t703zZSAgbZ_UwwTU&export=download"
 make sure to put both the cfg and the weights files in the same directory with the python script in order to run it.
 # Video
 This video shows how it can be used:https://www.youtube.com/watch?v=qZkWvCNbpZM
