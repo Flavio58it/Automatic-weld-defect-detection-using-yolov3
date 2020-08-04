@@ -15,7 +15,7 @@ This video shows how it can be used:https://www.youtube.com/watch?v=qZkWvCNbpZM
 - opencv-python 4.2.0.34
 - numpy 1.19.1
 - PyInstaller 3.6 (optional)
-
+# The .exe file:
 if you haven't python installed on your computer you can use the executable file directly by downloading it with the wieghts and cfg file in here https://drive.google.com/file/d/10rYKCr1pXuuZh8AKF6P7QqYh0NCgjORl/view
 # Detecting defect in dicom image:
 ![Sans titre](https://user-images.githubusercontent.com/47951668/88341229-22db9c80-cd35-11ea-9a01-0896f93b60d8.png)
