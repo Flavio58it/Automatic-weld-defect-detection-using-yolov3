@@ -4,7 +4,7 @@ The GUI is written in python tkinter, it can read and edit  DICOM and JPG images
 You can download weights separately  in this link https://drive.google.com/uc?id=1ugtEFYPN4g-LKC8t703zZSAgbZ_UwwTU&export=download , just make sure to put both the cfg and the pre-trained weights in the same directory with the python script in order to run it.
 
 # Video
-This video shows how it can be used :https://www.youtube.com/watch?v=qZkWvCNbpZM
+This video shows the source code and short tutorial about the app :https://www.youtube.com/watch?v=qZkWvCNbpZM
 # Requirements:
 Despite the use of deep pre-trained model “YOLOv3”, the trained model deployment doesn’t require to install any of deep learning libraries like Tensorflow, Keras or even darknet framework which is necessary for training, this App is simply use opencv for deployment: 
 - python 3.7.7
