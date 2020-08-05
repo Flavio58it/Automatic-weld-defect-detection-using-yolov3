@@ -20,5 +20,7 @@ if you haven't python installed on your computer you can use the executable file
 ![Sans titre](https://user-images.githubusercontent.com/47951668/88341229-22db9c80-cd35-11ea-9a01-0896f93b60d8.png)
  # Perspective
  - I will gather more training data to improve the mAP and the accuracy 
- - I will augment the number of classes detected to be 7 different classes equally to weld defects types which will make the app more useful  
+ - I will augment the number of classes to be 7 different classes equally to weld defects types which will make the app more useful  
  - I will use PYQt5 instead of tkinter in order to improve the GUI design
+ # Contact 
+ b.yassine.89@gmail.com
