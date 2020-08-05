@@ -18,3 +18,5 @@ Despite the use of deep pre-trained model “YOLOv3”, the trained model deploy
 if you haven't python installed on your computer you can use the executable file directly by downloading it with the weights and cfg file in here https://drive.google.com/file/d/10rYKCr1pXuuZh8AKF6P7QqYh0NCgjORl/view
 # Detecting defect in dicom image:
 ![Sans titre](https://user-images.githubusercontent.com/47951668/88341229-22db9c80-cd35-11ea-9a01-0896f93b60d8.png)
+ # perspective
+ As perspective of this work, once I got the sufficient number of samples in my dataset, I will improve the number of classes detected to 7 different classes depending on weld defect types and improve the mAP of the custom  model, also I will use PYQt5 to give more care of the design of the gui
