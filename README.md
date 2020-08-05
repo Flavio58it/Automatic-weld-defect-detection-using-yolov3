@@ -3,7 +3,7 @@ In non-destructive testing (NDT) the use of  X-ray weld defect images for defect
 The GUI is written in python tkinter, it can read and edit  DICOM and JPG images, and mainly  detect, localize and measure length of the weld defect detected.
 You can download weights separately  in this link https://drive.google.com/uc?id=1ugtEFYPN4g-LKC8t703zZSAgbZ_UwwTU&export=download , just make sure to put both the cfg and the pre-trained weights in the same directory with the python script in order to run it.
 
-# Video
+# Video:
 This video shows the source code and short tutorial about the app :https://www.youtube.com/watch?v=qZkWvCNbpZM
 # Requirements:
 Despite the use of deep pre-trained model “YOLOv3”, the trained model deployment doesn’t require to install any of deep learning libraries like Tensorflow, Keras or even darknet framework which is necessary for training, this App is simply use opencv for deployment: 
@@ -18,9 +18,9 @@ Despite the use of deep pre-trained model “YOLOv3”, the trained model deploy
 if you haven't python installed on your computer you can use the executable file directly by downloading it with the weights and cfg file in here https://drive.google.com/file/d/10rYKCr1pXuuZh8AKF6P7QqYh0NCgjORl/view
 # Detecting defect in dicom image:
 ![Sans titre](https://user-images.githubusercontent.com/47951668/88341229-22db9c80-cd35-11ea-9a01-0896f93b60d8.png)
- # Perspective
+ # Perspective:
  - I will gather more training data to improve the mAP and the accuracy 
  - I will augment the number of classes to be 7 different classes equally to weld defects types which will make the app more useful  
  - I will use PYQt5 instead of tkinter in order to improve the GUI design
- # Contact 
+ # Contact:
  b.yassine.89@gmail.com
