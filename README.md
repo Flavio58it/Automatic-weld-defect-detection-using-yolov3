@@ -1,13 +1,12 @@
 # Automatic-weld-defect-detection-using-yolov3:
-This app is made under Darknet library for detecting manufacturing weld defect from x-ray both DICOM and JPG images using yolov3 model  which is fine-tuned over 400 images containing 1300 manufacturing weld defects images. 
+In non-destructive testing (NDT) the use of  X-ray weld defect images for defects detection is a very significant method. Traditionally, this work should be done by skilled technicians who are time-consumed and easily influenced by the environment. Many efforts have been made on automatic classification. However their work either need manual features specified by technicians or get a low accuracy. In this work I have customize the famous YOLOv3 pre-trained weights (https://pjreddie.com/darknet/yolo/) to detect weld defects, instead of the 20 classes which are the original model has been trained on, I used only one class named “defaut” containing many type of defects  (Cracks, Blow holes, Solid inclusion). The original YOLOv3 has mAP measured at 0.5 IOU = 60.6 % on COCO dataset "https://cocodataset.org", while on my small local dataset (1300 samples) I have gotten mAP =83.35 % in the same IOU value. I have deployed that model on a windows desktop application which is made for detecting manufacturing weld defect from x-ray both DICOM and JPG images, whith the ability of browsing and saving the result as JPG or PNG image
+The GUI is written in python tkinter, it can read and edit  DICOM and JPG images, and mainly  detect, localize and measure length of the weld defect detected.
+You can download weights separately  in this link https://drive.google.com/uc?id=1ugtEFYPN4g-LKC8t703zZSAgbZ_UwwTU&export=download , just make sure to put both the cfg and the pre-trained weights in the same directory with the python script in order to run it.
 
-The GUI is written in python tkinter, it is made for reading and editing DICOM and JPG images, and mainly for detecting, localizing and measuring the dimension of weld defects using deep trained YOLOV3 model.
-you can download weights in this link "https://drive.google.com/file/d/1ugtEFYPN4g-LKC8t703zZSAgbZ_UwwTU/view?usp=sharing"
-make sure to put both the cfg and the weights files in the same directory with the python script in order to run it.
 # Video
-This video shows how it can be used:https://www.youtube.com/watch?v=qZkWvCNbpZM
+This video shows how it can be used :https://www.youtube.com/watch?v=qZkWvCNbpZM
 # Requirements:
-
+Despite the use of deep pre-trained model “YOLOv3”, the trained model deployment doesn’t require to install any of deep learning libraries like Tensorflow, Keras or even darknet framework which is necessary for training, this App is simply use opencv for deployment: 
 - python 3.7.7
 - pip 20.0.2
 - Pillow 7.1.1
