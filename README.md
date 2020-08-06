@@ -16,7 +16,13 @@ Despite the use of deep pre-trained model “YOLOv3”, the deployment doesn’t
 - numpy 1.19.1
 - PyInstaller 3.6 (optional)
 # The .exe file:
-if you haven't python installed on your computer you can use the executable for windows 64 bit directly by downloading it with pre-trained weights and cfg file in here https://drive.google.com/file/d/10rYKCr1pXuuZh8AKF6P7QqYh0NCgjORl/view
+if you haven't python installed on your computer you can use the executable directly by downloading it with pre-trained weights and cfg file in here: 
+-For windows 64 bit: 
+https://drive.google.com/file/d/10rYKCr1pXuuZh8AKF6P7QqYh0NCgjORl/view 
+-For windows 32 bit: 
+https://drive.google.com/file/d/1F52Qk4qunSkhz-Gy8EI2C8yukd3vRcJX/view?usp=sharing
+
+
 # Detecting defect in dicom image:
 ![88341229-22db9c80-cd35-11ea-9a01-0896f93b60d8](https://user-images.githubusercontent.com/47951668/89514246-83ef7f80-d7cd-11ea-85fb-1f7f58a62918.png)
  # Perspective:
