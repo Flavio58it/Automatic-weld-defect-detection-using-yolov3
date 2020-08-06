@@ -16,10 +16,10 @@ Despite the use of deep pre-trained model “YOLOv3”, the deployment doesn’t
 - numpy 1.19.1
 - PyInstaller 3.6 (optional)
 # The .exe file:
-if you haven't python installed on your computer you can use the executable directly by downloading it with pre-trained weights and cfg file in here: 
--For windows 64 bit: 
+if you haven't python installed on your computer you can use the executable directly by downloading it with pre-trained weights and cfg file in here:
+- For windows 64 bit: 
 https://drive.google.com/file/d/10rYKCr1pXuuZh8AKF6P7QqYh0NCgjORl/view 
--For windows 32 bit: 
+- For windows 32 bit: 
 https://drive.google.com/file/d/1F52Qk4qunSkhz-Gy8EI2C8yukd3vRcJX/view?usp=sharing
 
 
