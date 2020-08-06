@@ -18,7 +18,7 @@ Despite the use of deep pre-trained model “YOLOv3”, the deployment doesn’t
 # The .exe file:
 if you haven't python installed on your computer you can use the executable for windows 64 bit directly by downloading it with pre-trained weights and cfg file in here https://drive.google.com/file/d/10rYKCr1pXuuZh8AKF6P7QqYh0NCgjORl/view
 # Detecting defect in dicom image:
-![Sans titre](https://user-images.githubusercontent.com/47951668/88341229-22db9c80-cd35-11ea-9a01-0896f93b60d8.png)
+![88341229-22db9c80-cd35-11ea-9a01-0896f93b60d8](https://user-images.githubusercontent.com/47951668/89514246-83ef7f80-d7cd-11ea-85fb-1f7f58a62918.png)
  # Perspective:
  - I will gather more training data to improve the mAP and accuracy
  - I will work more on the GUI design
