@@ -6,7 +6,8 @@ You can download weights separately  in this link https://drive.google.com/uc?id
 # Video:
 This video shows the source code and a brief tutorial about the app :https://www.youtube.com/watch?v=qZkWvCNbpZM
 # Requirements:
-Despite the use of deep pre-trained model “YOLOv3”, the trained model deployment doesn’t require to install any of deep learning libraries like Tensorflow, Keras or even darknet framework which is necessary for training, this App is simply use opencv for deployment: 
+Despite the use of deep pre-trained model “YOLOv3”, the deployment doesn’t require any of deep learning libraries like Tensorflow, Keras or even darknet framework which is necessary for training, this App is simply use opencv for deployment: 
+* In order to excute the code on your own you have to have:
 - python 3.7.7
 - pip 20.0.2
 - Pillow 7.1.1
