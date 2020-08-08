@@ -28,7 +28,9 @@ https://drive.google.com/file/d/1F52Qk4qunSkhz-Gy8EI2C8yukd3vRcJX/view?usp=shari
  # Perspective:
  - I will gather more training data to improve the mAP and accuracy
  - I will work more on the GUI design
- - I will augment the number of classes to be 7 different classes with decision whether the defect is acceptable or not to make the app more useful somthing like this: 
+ - I will include real time detection using strong GPU
+ - I will augment the number of classes to be 7 different classes (based on its shape during solidification) with decisions, means whether the defect is acceptable (OK) or not(a Rep) to make the app more useful something like this:
+
  - ![a rep ok](https://user-images.githubusercontent.com/47951668/89511654-20178780-d7ca-11ea-9ed5-525f645c4d60.jpg)
  
  # Contact:
